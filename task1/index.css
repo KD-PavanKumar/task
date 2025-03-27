@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.box{
+    height:400px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px black;
+    margin: 20px;
+}
+.image{
+    height: 200px;
+    width:300px;
+    overflow: hidden;
+}
+.info{
+    padding-left: 20px;
+    line-height: 1.5
+}
+p{
+    font-size: 18px;
+}
+button{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
