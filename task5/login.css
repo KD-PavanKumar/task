@@ -1,0 +1,78 @@
+.box {
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    /* display: inline-block; */
+    margin-left: 35%;
+    border-radius: 10px;
+    /* text-align: center; */
+    padding-left: 40px;
+    box-shadow: 2px 3px 4px solid red;
+    /* backdrop-filter: 7px 8px 4px solid black; */
+    background-color: rgb(212, 200, 200);
+
+}
+
+.box h4 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.box p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    position: relative;
+    bottom: 50px;
+}
+
+form {
+    position: relative;
+    bottom: 50px;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input {
+    padding: 15px 50px;
+    border-radius: 5px;
+    border: 1px black solid;
+    /* text-align: left; */
+    font-size: 1rem;
+    letter-spacing: 15px;
+}
+
+form a {
+    margin-left: 50px;
+    font-size: larger;
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+form button {
+    padding: 15px 118px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #3776ff;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+form p {
+    margin-top: 70px;
+}
+
+span a {
+    position: relative;
+    right: 50px;
+    font-size: large;
+}
+
+input:focus {
+    color: red;
+    background-color: black;
+}
